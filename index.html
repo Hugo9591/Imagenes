@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Galeria</title>
+</head>
+<body>
+    <div class="galeria">
+        <img src="img/jacek-dylag-ZHr2TzM1-hk-unsplash.jpg" alt="Guitarra" onclick="mostrarImagen(this)">
+        <img src="img/jeremy-allouche-YStboKiFPVw-unsplash.jpg" alt="Guitarra" onclick="mostrarImagen(this)">
+        <img src="img/khara-woods-KR84RpMCb0w-unsplash.jpg" alt="Pintura" onclick="mostrarImagen(this)">
+        <img src="img/neom-FuusC7lfg6Q-unsplash.jpg" alt="Paisaje" onclick="mostrarImagen(this)">
+        <img src="img/neom-Iy59i0M7oP4-unsplash.jpg" alt="Paisaje" onclick="mostrarImagen(this)">
+        <img src="img/phill-brown-T0PaR22Kv8k-unsplash.jpg" alt="Paisaje">
+        <img src="img/rhondak-native-florida-folk-artist-_Yc7OtfFn-0-unsplash.jpg" alt="Brochas" onclick="mostrarImagen(this)">
+        <img src="img/soundtrap-CF8fATqx6VM-unsplash.jpg" alt="Guitarra" onclick="mostrarImagen(this)">
+        <img src="img/tim-arterbury-VkwRmha1_tI-unsplash.jpg" alt="Cuaderno" onclick="mostrarImagen(this)">
+    </div>
+
+    <div id="lightBox" onclick="ocultarImagen()">
+        <span class="X">&times;</span>
+        <img id="imagenCompleta" alt="Imagen Ampliada" >
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
