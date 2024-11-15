@@ -61,3 +61,14 @@ body{
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 880px){
+    .galeria img{
+        width: 41%;
+    }
+}
+@media screen and (max-width: 617px){
+    .galeria img{
+        width: 90%;
+    }
+}
