@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000500;
+}
+
+.galeria {
+  width: 100%;
+}
+.galeria img {
+  vertical-align: top;
+  width: 27%;
+  height: 250px;
+  margin: 20px;
+  padding: 5px;
+  opacity: 0.5;
+  border: 1px solid #484848;
+  border-radius: 5px;
+}
+.galeria img:hover {
+  border: 1px solid #fff;
+  opacity: 1;
+  cursor: pointer;
+}
+.galeria img:active {
+  filter: brightness(3);
+}
+
+#lightBox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+#lightBox .X {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#lightBox img {
+  max-width: 90%;
+  max-height: 90%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 880px) {
+  .galeria img {
+    width: 41%;
+  }
+}
+@media screen and (max-width: 617px) {
+  .galeria img {
+    width: 90%;
+  }
+}/*# sourceMappingURL=estilos.css.map */
